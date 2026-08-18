@@ -1,0 +1,30 @@
+/* =============================================
+ * TP全屋家居 · 后台管理系统全局样式
+ * 功能：重置浏览器默认样式
+ * 说明：后台样式由 Ant Design 组件库驱动
+ *       此文件仅做基础重置
+ * =============================================
+ * 设计规范参考：UI-UX设计规范文档
+ * 附录B — CSS 变量汇总（后台）
+ * ============================================= */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #F5F3F0;
+  color: #2D2A24;
+  line-height: 1.5;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}

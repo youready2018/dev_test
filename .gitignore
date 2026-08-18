@@ -1,0 +1,22 @@
+# ============ Python 虚拟环境 ============
+# api/ 目录下的 Python 服务端使用 venv，以下规则会递归忽略任意层级的 venv 目录
+venv/
+.venv/
+env/
+ENV/
+
+# ============ Python 缓存文件 ============
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+
+# ============ Node.js 依赖目录 ============
+# backend/ 与 frontend/ 均为 Node(Vite) 工程，node_modules 体积大且不入库
+node_modules/
+
+# ============ 前端构建产物 ============
+# backend/、frontend/ 构建后生成的 dist 目录（及 Vite 的 SSR 产物）不入库
+dist/
+dist-ssr/

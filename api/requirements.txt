@@ -1,0 +1,22 @@
+# =============================================
+# TP全屋家居 - API 服务依赖清单
+# 运行方式: pip install -r requirements.txt
+# =============================================
+
+# Web 框架
+fastapi>=0.110.0
+
+# ASGI 服务器
+uvicorn>=0.29.0
+
+# ORM 框架（同步模式，SQLite 兼容性最佳）
+sqlalchemy>=2.0.30
+
+# 认证 - JWT
+pyjwt>=2.8.0
+
+# 密码加密
+passlib[bcrypt]>=1.7.4
+
+# 文件上传支持
+python-multipart>=0.0.9
